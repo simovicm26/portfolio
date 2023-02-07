@@ -24,7 +24,7 @@ const ContactSection = React.forwardRef((props, ref) => {
               free to contact me and we can set up a FREE call to talk about
               your requirements.
             </Typography>
-            <Stack spacing={2}>
+            {/* <Stack spacing={2}>
               <Box sx={{ border: 2, borderRadius: 4, px: 4, py: 2 }}>
                 <Typography align="center">061 355 7855</Typography>
               </Box>
@@ -50,7 +50,7 @@ const ContactSection = React.forwardRef((props, ref) => {
                   <Typography>SEND ME AN EMAIL</Typography>
                 </Button>
               </Link>
-            </Stack>
+            </Stack> */}
           </Stack>
         </Container>
       </Box>
