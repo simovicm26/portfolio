@@ -84,6 +84,7 @@ const HeroSection = React.forwardRef((props, ref) => {
                     src={mainImage}
                     width={2014}
                     height={2014}
+                    preload="true"
                   />
                 </Box>
               </Box>
